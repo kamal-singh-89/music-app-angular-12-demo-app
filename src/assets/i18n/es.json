@@ -1,0 +1,20 @@
+{
+  "login": {
+    "dont_have_an_acc": "¿No tienes una cuenta?",
+    "sign_up_link": "Registrarse",
+    "sign_in_title": "Iniciar sesión",
+    "sign_in_sub_text": "Inicie sesión en Footy Market con los detalles de su cuenta original",
+    "email_address": "Dirección de correo electrónico",
+    "password": "Contraseña",
+    "keep_me_logged_in": "Mantenerme conectado",
+    "forgot_password": "¿Se te olvidó tu contraseña?",
+    "sign_in_btn": "Iniciar sesión",
+    "or": "O",
+    "sign_in_with_fb": "Iniciar sesión CON FACEBOOK",
+    "sign_in_with_google": "Iniciar sesión CON Google"
+  },
+  "HOME": {
+    "TITLE": "¡Hola Angular con ngx-translate!",
+    "SELECT": "Cambiar idioma"
+  }
+}

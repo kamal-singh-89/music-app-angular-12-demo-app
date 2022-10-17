@@ -1,0 +1,13 @@
+<div class="subheader-section">
+    <div class="subheader-section-left">
+        <p class="hello-text">Hello,</p>
+        <p class="user-name">Sophia!</p>
+    </div>
+    <div class="filter-link">
+        <i class="fa fa-sliders" aria-hidden="true"></i>
+    </div>
+    <div class="button-wrapper">
+        <button *ngIf="currentCompnent !== 'MusicListComponent'" onclick="history.back()" type="button" class="btn btn-primary">Back</button>
+        <button *ngIf="currentCompnent !== 'MusicDetailComponent'" routerLink="/add-music" type="button" class="btn btn-primary">Add Music</button>
+    </div>
+</div>

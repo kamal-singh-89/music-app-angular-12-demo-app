@@ -1,0 +1,20 @@
+{
+  "login": {
+    "dont_have_an_acc": "Sie haben kein Konto?",
+    "sign_up_link": "Anmelden",
+    "sign_in_title": "Anmelden",
+    "sign_in_sub_text": "Bitte melden Sie sich mit Ihren ursprünglichen Kontodaten bei Footy Market an.",
+    "email_address": "E-Mail-Adresse",
+    "password": "Passwort",
+    "keep_me_logged_in": "Lassen Sie mich eingeloggt",
+    "forgot_password": "Passwort vergessen?",
+    "sign_in_btn": "Anmelden",
+    "or": "ODER",
+    "sign_in_with_fb": "Mit FACEBOOK anmelden",
+    "sign_in_with_google": "Mit Google anmelden"
+  },
+  "HOME": {
+    "TITLE": "Hallo Angular met ngx-translate!",
+    "SELECT": "Taal wijzigen"
+  }
+}

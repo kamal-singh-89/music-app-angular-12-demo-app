@@ -1,0 +1,16 @@
+<div class="tab-item-wrapper" *ngIf="musicList.length; else elseBlock">
+    <div class="tab-item-col" *ngFor="let item of musicList" [routerLink]="['/detail']">
+        <div class="image-wrapper">
+            <img src="{{imagePath}}/{{item?.image}}" alt="image">
+        </div>
+        <p>{{item?.artist}}</p>
+    </div>
+</div>
+<ng-template #elseBlock>
+    <div class="tab-item-wrapper">
+        <div class="tab-item-col">
+            <p>No record found!</p>
+        </div>
+    </div>
+</ng-template>
+

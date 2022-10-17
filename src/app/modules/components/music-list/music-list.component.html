@@ -1,0 +1,31 @@
+<!-- start top header -->
+<app-header-search></app-header-search>
+<!-- ends top header -->
+
+<!-- start profile section -->
+<app-profile></app-profile>
+<!-- ends profile section -->
+
+<tabset>
+    <tab heading="Recently" (selectTab)="getRecentMusic()">
+        <app-music-div [musicList]="musicList"></app-music-div>
+    </tab>
+    <tab heading="Popular" (selectTab)="getPopular()">
+        <app-music-div [musicList]="musicList"></app-music-div>
+    </tab>
+    <tab heading="Favorite" (selectTab)="getFavorite()">
+        <app-music-div [musicList]="musicList"></app-music-div>
+    </tab>
+    <tab heading="Top 10" (selectTab)="getTop()">
+        <app-music-div [musicList]="musicList"></app-music-div>
+    </tab>
+</tabset>
+
+<div class="new-section">
+    <h5 class="new-section-head">New</h5>
+    <app-new [newMusicList]="newMusicList"></app-new>
+</div>
+
+<!-- start footer section -->
+<app-footer></app-footer>
+<!-- ends footer section -->

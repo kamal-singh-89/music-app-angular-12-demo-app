@@ -1,0 +1,20 @@
+{
+  "login": {
+    "dont_have_an_acc": "An non?",
+    "sign_up_link": "subscribere sursum",
+    "sign_in_title": "Inscribe",
+    "sign_in_sub_text": "Sign in to Footy vestra Market et singula propter originale.",
+    "email_address": "Electronicus Nuntium",
+    "password": "Password",
+    "keep_me_logged_in": "Retine me initium",
+    "forgot_password": "Oblitusne es tesserae?",
+    "sign_in_btn": "Inscribe",
+    "or": "VEL",
+    "sign_in_with_fb": "Sign in with Facebook",
+    "sign_in_with_google": "Googles Sign in"
+  },
+  "HOME": {
+    "TITLE": "Salve Angular cum ngx-translate!",
+    "SELECT": "Mutationem linguae"
+  }
+}
